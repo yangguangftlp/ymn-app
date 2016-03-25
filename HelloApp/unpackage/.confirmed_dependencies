@@ -1,0 +1,69 @@
+{
+  "index.html": {
+    "resources": [
+      "css/common.css",
+      "js/update.js",
+      "js/shortcut.js",
+      "js/immersed.js"
+    ],
+    "refer": [
+      "plus/accelerometer.html",
+      "plus/barcode.html",
+      "plus/audio.html",
+      "plus/gallery.html",
+      "plus/zip.html",
+      "plus/njs.html",
+      "plus/events.html"
+    ]
+  },
+  "plus/accelerometer_shake.html": {
+    "resources": [
+      "img/shake/1.jpg",
+      "img/shakedown.png",
+      "img/shakeup.png",
+      "img/shake/3.jpg",
+      "img/shake/4.jpg"
+    ],
+    "refer": []
+  },
+  "plus/accelerometer.html": {
+    "resources": [
+      "js/common.js"
+    ],
+    "refer": [
+      "plus/accelerometer_shake.html"
+    ]
+  },
+  "plus/barcode.html": {
+    "resources": [
+      "js/common.js",
+      "css/common.css",
+      "js/immersed.js",
+      "img/barcode.png"
+    ],
+    "refer": []
+  },
+  "doc/gallery.html": {
+    "resources": [
+      "doc/res/doc.css",
+      "doc/res/prettify.js",
+      "doc/res/prettify.sons.css",
+      "doc/res/doc.js"
+    ]
+  },
+  "plus/gallery.html": {
+    "refer": [
+      "plus/doc.html"
+    ]
+  },
+  "plus/doc.html": {
+    "refer": [
+      "doc/gallery.html"
+    ]
+  },
+  "plus/events.html": {
+    "resources": [
+      "js/common.js"
+    ]
+  }
+}
